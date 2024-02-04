@@ -1,0 +1,79 @@
+#head{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: aqua;
+}
+.headerChild{
+    background-color: antiquewhite;
+}
+#userName{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#userTag{
+    grid-column-start:2;
+    grid-row-start:2;
+}
+#bio{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#profilePic{
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+#works{
+    text-align: center;
+}
+
+/*navigation bar*/
+.navigation ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navigation li{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.navigation li a {
+    display: block;
+    padding:10px;
+    color: wheat;
+    background-color: grey;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    background-color: goldenrod;
+}
+
+/*scrolls cover picture, title, price, and buy button*/
+.scrollHolder{
+    width: 100%;
+    display: inline-block;
+    border: solid black;
+}
+
+.scroll{
+    float: left;
+    width:25%;
+    padding-bottom: 20px;
+}
+
+.coverPic{
+    height:100px;
+}
+
+/*Social media links*/
+.socials{
+    width: 100%;
+}
+.socialsLogo {
+    width:20px;
+    height: 20px;
+}
