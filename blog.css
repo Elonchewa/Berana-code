@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Asul', serif;
+}
+
+#firstHeader {
+    width: 100%;
+    display: inline-block;
+}
+
+#profileDiv {
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+}
+
+#profilePic {
+    width: 100%;
+}
+
+#wordsFirstHeader {
+    float: left;
+    width: 70%;
+}
+
+
+
+
+/*navigation bar*/
+#works {
+    text-align: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation li {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.navigation li a {
+    display: block;
+    padding: 10px;
+    color: wheat;
+    background-color: #4357AD;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #FFA500;
+    color: black;
+}
+
+/*scrolls cover picture, title, price, and buy button*/
+.scrollHolder {
+    width: 100%;
+    display: inline-block;
+    border: solid black;
+}
+
+.scroll {
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+.coverPic {
+    height: 100px;
+}
+
+.buy:hover {
+    background-color: #FFD700;
+}
+
+
+/*Social media links*/
+.socials {
+    width: 100%;
+}
+
+.socialsLogo {
+    width: 20px;
+    height: 20px;
+}
