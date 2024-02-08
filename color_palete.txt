@@ -1,7 +1,14 @@
-*White (#ffffff)- Tentative background color
+(#FFE96C)- Tentative background color
 Gold (#FFD700)- Main theme color
 Black (#000000)- Main text color
 Violet Blue (#4357AD) and Orange web (#FFA500)- Button, Navigation Bar, Emphasis element colors. Gold can also be used for an additional emphasis.
 
+
+
+website color video notes:
+3-5 colors 
+* 1-2 bold striking colors related to the background
+* 1-2 colors that are neutral colors: darks, light grey, creams. Something that isn't white but sits well. 
+*1 contrast color that will be used for call to actions.
 
 

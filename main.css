@@ -1,31 +1,33 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    width:100%;
+    height:100%;
+    font-family: 'Asul', serif;
+}
+
 #head{
-    display: grid;
-    gap: 50px;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
 }
 .headerChild{
-    background-color: antiquewhite;
-}
-#userName{
-    grid-column-start: 2;
-    grid-row-start: 1;
-}
-#userTag{
-    grid-column-start:2;
-    grid-row-start:2;
-}
-#bio{
-    grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    
 }
 #profilePic{
-    grid-row-start: 1;
-    grid-row-end: 3;
 
 }
+/*Have username display like an exponent for the name*/
+#userName{
+}
+#userTag{
+}
+#bio{
+}
+
+/*profile pic reduces in size when width of screen lessens*/
+
 #works{
     text-align: center;
 }
@@ -45,11 +47,12 @@
     display: block;
     padding:10px;
     color: wheat;
-    background-color: grey;
+    background-color: #4357AD;
     text-decoration: none;
 }
 .navigation li a:hover{
-    background-color: goldenrod;
+    background-color: #FFA500;
+    color: black;
 }
 
 /*scrolls cover picture, title, price, and buy button*/
@@ -63,6 +66,7 @@
     float: left;
     width:25%;
     padding-bottom: 20px;
+    
 }
 
 .coverPic{
