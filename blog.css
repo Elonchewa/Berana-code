@@ -57,7 +57,7 @@ body {
     color: black;
 }
 
-/*scrolls cover picture, title, price, and buy button*/
+/*Blogs cover picture, title, and read button*/
 .scrollHolder {
     width: 100%;
     display: inline-block;
