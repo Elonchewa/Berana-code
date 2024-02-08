@@ -12,47 +12,47 @@
     <!--<py-script>
     </py-script>-->
   </head>
+
   <body>
-
-
     <header>
-      <div id="head">
-      <img class="headerChild"id="profilePic" src="Images/Profile_pic_logo.jfif" alt="Profile Picture" />
+      <!--header is divided into two parts: the first header and the navigation header. The first header is divided into the profile picture and then the wordsDiv which holds the username, usertag, bio, and follow btn.-->
+      <div id="firstHeader" class="headerChild">
+        <div id="profileDiv" class="firstHeaderChild">
+          <img id="profilePic"  src="Images/Profile_pic_logo.jfif" alt="Profile Picture" />
+        </div>
 
-      <h1 class="headerChild" id="userName">Abebe Tesfaye</h1>
+        <div class="firstHeaderChild" id="wordsFirstHeader">
+          <h1 id="userName">Abebe Tesfaye <sup>@ABeT</sup></h1>
 
-      <h3 class="headerChild" id="userTag">@ABeT</h3>
-
-      <p class="headerChild" id="bio">
-        Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Consequuntur, sequi dolor quam eius eveniet modi soluta nisi inventore
-      </p>
-      <input class="headerChild" id="followBtn" type="button" value="Follow" />
+          
+          <p id="bio">
+          Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consequuntur, sequi dolor quam eius eveniet modi soluta nisi inventore
+          </p>
+          <input id="followBtn" type="button" value="Follow" />
+        </div>
       </div>
 
       <hr>
-
-        
-      <div id="works"><h3>Works by Abebe</h3></div> <br>
-      <div class="navigation">
-      <ul>
-        <li>
-          <a href="writer_accnt_main_pg.html">Scrolls</a>
-        </li>
-        <li>
-          <a href="writer_accnt_short_pg.html">Short Writings and Essays</a>
-        </li>
-        <li>
-          <a href="writer_accnt_blog_pg.html">Blog Scrolls</a>
-        </li>
-      </ul>
-      <br><br>
-      </div>
+  
+        <div class="navigation">
+          <h3 id="works">Works by Abebe</h3>
+          <ul>
+            <li>
+              <a href="writer_accnt_main_pg.html">Scrolls</a>
+            </li>
+            <li>
+              <a href="writer_accnt_short_pg.html">Short Writings and Essays</a>
+            </li>
+            <li>
+              <a href="writer_accnt_blog_pg.html">Blog Scrolls</a>
+            </li>
+          </ul>
+        </div>
     </header>
 
-
-
     <hr>
+
     <main>
       <div class="scrollHolder">
       <div class="scroll" id="book1">
