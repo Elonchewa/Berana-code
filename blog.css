@@ -58,23 +58,16 @@ body {
 }
 
 /*Blogs cover picture, title, and read button*/
-.scrollHolder {
-    width: 100%;
-    display: inline-block;
-    border: solid black;
-}
-
-.scroll {
-    float: left;
-    width: 25%;
-    padding-bottom: 20px;
+#commentIcon, #heartIcon{
+    height: 40px;
+    width:40px;
 }
 
 .coverPic {
     height: 100px;
 }
 
-.buy:hover {
+.read:hover {
     background-color: #FFD700;
 }
 
