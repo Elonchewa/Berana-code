@@ -6,69 +6,85 @@
     <title>Berana</title>
     <link rel="icon" type="image/x-icon" href="Images/Favicon.jfif" />
     <link rel="stylesheet" href="main.css" />
-
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+    </style>
     <!--<py-script>
     </py-script>-->
   </head>
   <body>
     <header>
-      <img src="Images/Profile_pic_logo.jfif" alt="Profile Picture" />
+      <!--header is divided into two parts: the first header and the navigation header. The first header is divided into the profile picture and then the wordsDiv which holds the username, usertag, bio, and follow btn.-->
+      <div id="firstHeader" class="headerChild">
+        <div id="profileDiv" class="firstHeaderChild">
+          <img id="profilePic"  src="Images/Profile_pic_logo.jfif" alt="Profile Picture" />
+        </div>
 
-      <h1>Abebe Tesfaye</h1>
+        <div class="firstHeaderChild" id="wordsFirstHeader">
+          <h1 id="userName">Abebe Tesfaye <sup>@ABeT</sup></h1>
 
-      <h3>@ABeT</h3>
+          
+          <p id="bio">
+          Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consequuntur, sequi dolor quam eius eveniet modi soluta nisi inventore
+          </p>
+          <input id="followBtn" type="button" value="Follow" />
+        </div>
+      </div>
 
-      <p>
-        Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Consequuntur, sequi dolor quam eius eveniet modi soluta nisi inventore
-        debitis consectetur libero doloremque maiores impedit asperiores quia,
-        velit mollitia nobis nulla?
-      </p>
-      <input id="followBtn" type="button" value="Follow" />
       <hr>
-      <h3 id="Works">Works by Abebe</h3>
-
-      <ul id="navigationBar">
-        <li class="navElement">
-          <a href="writer_accnt_main_pg.html">Scrolls</a>
-        </li>
-        <li class="navElement">
-          <a href="writer_accnt_short_pg.html">Short Writings and Essays</a>
-        </li>
-        <li class="navElement">
-          <a href="writer_accnt_blog_pg.html">Blog Scrolls</a>
-        </li>
-      </ul>
+  
+        <div class="navigation">
+          <h3 id="works">Works by Abebe</h3>
+          <ul>
+            <li>
+              <a href="writer_accnt_main_pg.html">Scrolls</a>
+            </li>
+            <li>
+              <a href="writer_accnt_short_pg.html">Short Writings and Essays</a>
+            </li>
+            <li>
+              <a href="writer_accnt_blog_pg.html">Blog Scrolls</a>
+            </li>
+          </ul>
+        </div>
     </header>
+
     <hr>
+
     <main>
-      <div id="scrollTitles">
-      <div id="book1">
-        <img class="coverPic" id="book1Cover" src="" alt="Book Cover">
-        <label class="title" for="book1Cover"></label>
-        <label class="price" for="book1Cover"></label>
+      <div class="scrollHolder">
+      <div class="scroll" id="book1">
+        <img class="coverPic" id="book1Cover" src="Images/Book_Cover_Placeholder.jfif" alt="Book Cover"><br>
+        <label class="title" for="book1Cover">Title</label><br>
+        <label class="price" for="book1Cover">Price</label><br>
+        <input class="buy" type="button" value="Get">
       </div>
-      <div id="book2">
-        <img class="coverPic" id="book2Cover" src="" alt="Book Cover">
-        <label class="title" for="book2Cover"></label>
-        <label class="price" for="book2Cover"></label>
+      <div class="scroll" id="book2">
+        <img class="coverPic" id="book2Cover" src="Images/Book_Cover_Placeholder.jfif" alt="Book Cover"><br>
+        <label class="title" for="book2Cover">Title</label><br>
+        <label class="price" for="book2Cover">Price</label><br>
+        <input class="buy" type="button" value="Get">
       </div>
-      <div id="book3">
-        <img class="coverPic" id="book3Cover" src="" alt="Book Cover">
-        <label class="title" for="book3Cover"></label>
-        <label class="price" for="book3Cover"></label>
+      <div class="scroll" id="book3">
+        <img class="coverPic" id="book3Cover" src="Images/Book_Cover_Placeholder.jfif" alt="Book Cover"><br>
+        <label class="title" for="book3Cover">Title</label><br>
+        <label class="price" for="book3Cover">Price</label><br>
+        <input class="buy" type="button" value="Get">
       </div>
-      <div id="book4">
-        <img class="coverPic" id="book4Cover" src="" alt="Book Cover">
-        <label class="title" for="book4Cover"></label>
-        <label class="price" for="book4Cover"></label>
+      <div class="scroll" id="book4">
+        <img class="coverPic" id="book4Cover" src="Images/Book_Cover_Placeholder.jfif" alt="Book Cover"><br>
+        <label class="title" for="book4Cover">Title</label><br>
+        <label class="price" for="book4Cover">Price</label><br>
+        <input class="buy" type="button" value="Get">
       </div>
       </div>
     </main>
 
-    <hr />
+    <br>
+  
     <footer>
-      <p>
+      <p class="socials">
         Follow us on social media: <br />
         <!--use a element with images between-->
         Instagram
